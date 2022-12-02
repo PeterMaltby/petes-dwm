@@ -3,8 +3,8 @@
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
-static const int gapin		    = 10;
-static const int gapout		    = 5;
+static const int gapin		    = 25;
+static const int gapout		    = 25;
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
@@ -30,7 +30,7 @@ static const char col_white[]	="#e4d4c8";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_dark2 },
-	[SchemeSel]  = { col_black, col_green, col_darkGreen  },
+	[SchemeSel]  = { col_black, col_brown, col_green  },
 };
 
 /* tagging */
